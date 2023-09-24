@@ -16,9 +16,21 @@ body {
 }
 .para {
     margin-top: 2%;
-    margin-left: 3.5%;
+    margin-left: 4%;
     font-size: 25px;
     font-family: poppins;
+}
+.parag {
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 25px;
+    font-family: poppins;
+    color: white;
+}
+.parag a {
+    
+    font-family: poppins;
+    color: black;
 }
 .container{
     background-repeat: no-repeat;
