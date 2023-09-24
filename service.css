@@ -93,8 +93,8 @@
   
   /* for all social containers*/
   .socialContainer {
-    width: 52px;
-    height: 52px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: rgb(44, 44, 44);
     display: flex;
