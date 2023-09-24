@@ -10,7 +10,16 @@
     transition: .2s linear;
     background-attachment: fixed;
 }
-
+body {
+    background-size: cover;
+    background-image: url(bgpic.jpg);
+}
+.para {
+    margin-top: 2%;
+    margin-left: 3.5%;
+    font-size: 25px;
+    font-family: poppins;
+}
 .container{
     background-repeat: no-repeat;
     padding:15px 9%;
@@ -27,7 +36,7 @@
 
 .container .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
     gap:15px;
 }
 
@@ -82,7 +91,7 @@
 .card {
     width: fit-content;
     height: fit-content;
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(238, 238, 238, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,7 +132,10 @@
     background-color: #128C7E;
     transition-duration: .3s;
   }
-  
+  .containerFive:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
   .socialContainer:active {
     transform: scale(0.9);
     transition-duration: .3s;
