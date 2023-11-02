@@ -22,6 +22,9 @@ body {
     decoration: none;
     color: black;
 }
+.para a {
+    color: black;
+}
 .parag {
     margin-top: 2%;
     margin-left: 4%;
